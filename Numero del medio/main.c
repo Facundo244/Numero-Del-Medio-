@@ -44,8 +44,11 @@ int main()
         }
     }
 
-    printf("el minimo es: %d\n" , minimo);
-    printf("el maximo es: %d\n" , maximo);
+    if(maximo != minimo)
+    {
+        printf("El numero del medio es: %d\n" , numeroDelMedio);
+    }
+
 
    return 0;
 }
